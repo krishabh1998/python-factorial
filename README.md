@@ -19,3 +19,12 @@ The goal of this project is to make a program that calculates the factorial of a
 ## Executing the Test
 Go to your project directory and execute `nosetests` on the terminal. The code should work perfectly.
 
+
+## Sample 
+
+def recur_factorial(n):                                   #create a function to return the factorial of a number.
+   if n == 1:
+       return n
+   else:
+       return n*recur_factorial(n-1)
+
